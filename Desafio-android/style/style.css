@@ -129,8 +129,46 @@ main a:hover{
     min-width: 400px;
 }
 
+aside{
+    background-color: var(--color2);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+aside > ul{
+    list-style-type: '\2714';
+    list-style-position: inside;
+    columns: 2;
+    
+}
+
+aside > h3{
+    background-color: var(--color4);
+    color: white;
+    padding: 5px;
+}
+
+aside li{
+    margin: 10px;
+}
+
 
 footer{
     background-color: #004D6B;
     color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer  a:hover{
+    text-decoration: underline;
+    color: var(--color1);
 }
